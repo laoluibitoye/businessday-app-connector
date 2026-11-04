@@ -2,7 +2,7 @@
 /**
  * Plugin Name: BusinessDay App Connector
  * Description: Cached content feeds and app-specific config (banners, ads, paywall copy) for the BusinessDay mobile app. Reads entitlement/premium status from AeroPaywall's connector-plugin in-process; never duplicates its gating logic and never touches its code.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Requires PHP: 8.0
  * License: Proprietary
  */
@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('BD_APP_CONNECTOR_VERSION', '0.1.0');
+define('BD_APP_CONNECTOR_VERSION', '0.2.0');
 define('BD_APP_CONNECTOR_DIR', plugin_dir_path(__FILE__));
 
 require_once BD_APP_CONNECTOR_DIR . 'includes/class-bd-cache.php';
